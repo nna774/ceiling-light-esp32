@@ -1,0 +1,16 @@
+secrets.yaml
+.esphome/
+venv/
+pio-venv/
+.pio/
+sdkconfig.esp32-c3
+
+# light-matter (ESP-Matter port): SDKs are plain clones of upstream repos,
+# not our code -- see light-matter/setup.sh for how to fetch them.
+light-matter/esp-idf/
+light-matter/esp-matter/
+light-matter/bin/
+light-matter/firmware/build/
+light-matter/firmware/managed_components/
+light-matter/firmware/sdkconfig
+light-matter/firmware/sdkconfig.old
